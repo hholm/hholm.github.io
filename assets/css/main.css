@@ -7,6 +7,16 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* Dark Mode Variables */
+:root {
+	--color-bg: #404040;
+	--color-surface: #1e1e1e;
+	--color-text: #e0e0e0;
+	--color-heading: #ffffff;
+	--color-accent: #47D3E5;
+	--color-border: rgba(255, 255, 255, 0.15);
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -100,7 +110,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background: #404040;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -153,8 +163,8 @@ input, select, textarea {
 		}
 
 	body {
-		background-color: #ffffff;
-		color: #000000;
+		background-color: #404040;
+		color: #e0e0e0;
 	}
 
 	body, input, select, textarea {
@@ -317,11 +327,11 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: #000000;
+		color: #e0e0e0;
 	}
 
 	a {
-		color: #000000;
+		color: #e0e0e0;
 	}
 
 		a:hover {
@@ -329,24 +339,24 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #000000;
+		color: #e0e0e0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #000000;
+		color: #ffffff;
 	}
 
 	blockquote {
-		border-left-color: rgba(0, 0, 0, 0.2);
+		border-left-color: rgba(255, 255, 255, 0.15);
 	}
 
 	code {
-		background: rgba(0, 0, 0, 0.05);
-		border-color: rgba(0, 0, 0, 0.2);
+		background: rgba(255, 255, 255, 0.08);
+		border-color: rgba(255, 255, 255, 0.15);
 	}
 
 	hr {
-		border-bottom-color: rgba(0, 0, 0, 0.2);
+		border-bottom-color: rgba(255, 255, 255, 0.15);
 	}
 
 /* Row */
@@ -2084,7 +2094,7 @@ input, select, textarea {
 		}
 
 	.box {
-		border-color: rgba(0, 0, 0, 0.2);
+		border-color: rgba(255, 255, 255, 0.15);
 	}
 
 /* Button */
@@ -2189,7 +2199,7 @@ input, select, textarea {
 	.button {
 		background-color: transparent;
 		box-shadow: inset 0 0 0 1px rgb(255, 255, 255);
-		color: #000000 !important;
+		color: #e0e0e0 !important;
 	}
 
 		input[type="submit"]:hover,
@@ -2216,7 +2226,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #000000;
+			background-color: #e0e0e0;
 			box-shadow: none;
 			color: #000000 !important;
 		}
@@ -2475,7 +2485,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #000000;
+		color: #e0e0e0;
 	}
 
 	input[type="text"],
@@ -2486,7 +2496,7 @@ input, select, textarea {
 	input[type="url"],
 	select,
 	textarea {
-		border-color: rgba(0, 0, 0, 0.2);
+		border-color: rgba(255, 255, 255, 0.2);
 	}
 
 		input[type="text"]:focus,
@@ -2506,25 +2516,25 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #000000;
-			background: #ffffff;
+			color: #e0e0e0;
+			background: #2a2a2a;
 		}
 
 	input[type="checkbox"] + label,
 	input[type="radio"] + label {
-		color: #000000;
+		color: #e0e0e0;
 	}
 
 		input[type="checkbox"] + label:before,
 		input[type="radio"] + label:before {
-			border-color: rgba(0, 0, 0, 0.2);
+			border-color: rgba(255, 255, 255, 0.2);
 		}
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #000000;
-		border-color: #000000;
-		color: #ffffff;
+		background-color: #e0e0e0;
+		border-color: #e0e0e0;
+		color: #404040;
 	}
 
 	input[type="checkbox"]:focus + label:before,
@@ -2534,19 +2544,19 @@ input, select, textarea {
 	}
 
 	::-webkit-input-placeholder {
-		color: rgba(0, 0, 0, 0.75) !important;
+		color: rgba(255, 255, 255, 0.4) !important;
 	}
 
 	:-moz-placeholder {
-		color: rgba(0, 0, 0, 0.75) !important;
+		color: rgba(255, 255, 255, 0.4) !important;
 	}
 
 	::-moz-placeholder {
-		color: rgba(0, 0, 0, 0.75) !important;
+		color: rgba(255, 255, 255, 0.4) !important;
 	}
 
 	:-ms-input-placeholder {
-		color: rgba(0, 0, 0, 0.75) !important;
+		color: rgba(255, 255, 255, 0.4) !important;
 	}
 
 /* Icon */
@@ -2923,7 +2933,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: rgba(0, 0, 0, 0.75);
+		color: rgba(255, 255, 255, 0.6);
 	}
 
 /* Table */
@@ -2999,31 +3009,31 @@ input, select, textarea {
 		}
 
 	table tbody tr {
-		border-color: rgba(0, 0, 0, 0.2);
+		border-color: rgba(255, 255, 255, 0.15);
 	}
 
 		table tbody tr:nth-child(2n + 1) {
-			background-color: rgba(0, 0, 0, 0.05);
+			background-color: rgba(255, 255, 255, 0.05);
 		}
 
 		table tbody tr.alt {
-			background-color: rgba(0, 0, 0, 0.05) !important;
+			background-color: rgba(255, 255, 255, 0.05) !important;
 		}
 
 	table th {
-		color: #000000;
+		color: #e0e0e0;
 	}
 
 	table thead {
-		border-bottom-color: rgba(0, 0, 0, 0.2);
+		border-bottom-color: rgba(255, 255, 255, 0.15);
 	}
 
 	table tfoot {
-		border-top-color: rgba(0, 0, 0, 0.2);
+		border-top-color: rgba(255, 255, 255, 0.15);
 	}
 
 	table.alt tbody tr td {
-		border-color: rgba(0, 0, 0, 0.2);
+		border-color: rgba(255, 255, 255, 0.15);
 	}
 
 	table.uniform tbody tr:nth-child(2n + 1) {
@@ -7265,12 +7275,12 @@ input, select, textarea {
 
 	.wrapper.style2 {
 		padding: 7rem;
-		background-color: #eeeeee;
+		background-color: #111111;
 	}
 
 		.wrapper.style2 > .inner {
 			padding: 5.25rem 3.5rem 3.25rem 3.5rem ;
-			background-color: #ffffff;
+			background-color: #1e1e1e;
 			border-radius: 0.5rem;
 			margin: 0 auto;
 			max-width: 100%;
